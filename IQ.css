@@ -1,0 +1,70 @@
+body{
+    font-family: monospace;
+    transition: 1s;
+    background: rgb(230, 228, 228);
+}
+
+#game-body{
+    padding: 15em;
+    background: linear-gradient(rgb(15, 23, 139), skyblue);
+    display: block;
+    border:none;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px;
+    text-align: center;
+    margin: 5em;
+}
+
+#msg{
+    padding: 0.5em;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(255, 255, 255, 0.459), rgba(245, 245, 245, 0.151));
+    border:none;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 0.5px black;
+    
+}
+
+#msg1{
+    padding: 0.5em;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgba(126, 48, 48, 0.658), rgba(255, 4, 4, 0.521));
+    border:none;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 0.5px black;
+    display: inline-block;
+    
+}
+
+#response{
+    border: none;
+    background: linear-gradient(rgba(255, 255, 255, 0.788), rgba(238, 237, 237, 0.473));
+    padding: 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 0.5px;
+    color: white
+}
+#guess{
+    border: none;
+    margin: 1em;
+    padding: 1em;
+    background: linear-gradient(rgba(135, 207, 235, 0.699), rgba(0, 0, 255, 0.301));
+    box-shadow: 0px 0px 10px black;
+    border-radius: 2em;
+    color: white;
+}
+
+form{
+    padding: 0.5em;
+    border:none;
+    background: whitesmoke;
+    box-shadow: 0px 0px 3px;
+    display: inline-flex;
+    border-radius: 0.2em
+}
+
+#name{
+    border:none;
+}

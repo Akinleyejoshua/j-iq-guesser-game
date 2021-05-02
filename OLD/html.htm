@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IQ GUESS</title>
+	<style>
+		body{
+			background: whitesmoke;
+			font-family: monospace;
+		}
+		#game-body{
+			background: white;
+			padding: 2em;
+			text-align: center;
+			border: none;
+			box-shadow: 1px 1px 10px;
+			border-radius: 0.2em;
+		}
+		#game-information{
+			color: skyblue;
+		}
+		#msg1{
+			color: blue;
+			padding: 1em;
+			border: none;
+			background: white;
+			box-shadow: 1px 1px 10px gray;
+			text-align: center;
+		}
+		input{
+			border: none;
+			background: whitesmoke;
+			padding: 0.6em;
+			box-shadow: 0px 0px 2px gray;
+		}
+	</style>
+</head>
+<body>
+	<section id="game-body">
+		<div id="game-information">
+			<input type="text" id="input"><br><br>
+			<input type="button" name="guess" id="guess-checker" value="Guess" onclick="checkRandomNumber()">
+		</div>
+	</section>
+</body>
+<script src="JavaScript.js"></script>
+</html>
